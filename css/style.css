@@ -3,11 +3,15 @@ header{
 background-image: url(../img/wp8394053.jpg);
 width: auto;
 overflow: hidden;
+box-shadow: 0px 2px 15px 3px;
+color: palevioletred;
 }
 
 header img{
     width: 150px;
     display: flex;
+    box-shadow: 0px 2px 15px 3px;
+    color: palevioletred;
 }
 body{
     background-color: #EED0D5;
@@ -58,6 +62,85 @@ h1{
     background-color: pink;
     color: palevioletred;
   }
+
+  .card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px 3px;
+    background-color: pink;
+    color: palevioletred;
+  }
+
+  .card img{
+    width: 100%;
+  }
+  
+  .card h1{
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .card h2{
+    font-size: 15px;
+  }
+
+  .card-content{
+    padding: 15px;
+  }
+  .productosventa{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .shadow2{
+    box-shadow: 0px 2px 15px 3px;
+    height: 330px;
+    background-color: pink;
+    color: palevioletred;
+    border-radius: 20px;
+    margin: 30px;
+  }
+  .shadow2 img{
+    border-radius: 20px;
+    padding: 20px;
+    float: left;
+
+    }
+
+    .shadow2 h2, p,{
+        color: white;
+        text-align: left;
+        font-size: 30px;
+        }
+
+        .button-redirection{
+            background-color: green;
+            text-decoration: none;
+            color:  white;
+            font-size: 25px;
+            border-radius: 30px;
+            box-shadow: 0px 2px 15px 3px;
+            background-color: pink;
+            color: palevioletred;
+            border-bottom: #EED0D5;
+            font-family: "Varela Round", sans-serif;
+             
+        }
+
+        footer{
+            background-color: palevioletred;
+            color: white;
+            height: 160px;
+            font-size: 20px;
+            padding: 10px;
+            font-family: "Varela Round", sans-serif;
+        }
+
+        .shadow2 h1{
+            text-align: center;
+        }
+        
   
 
 
