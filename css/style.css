@@ -109,38 +109,130 @@ h1{
     }
 
     .shadow2 h2, p,{
-        color: white;
-        text-align: left;
-        font-size: 30px;
-        }
+color: white;
+ text-align: left;
+  font-size: 30px;
+ }
 
-        .button-redirection{
-            background-color: green;
-            text-decoration: none;
-            color:  white;
-            font-size: 25px;
-            border-radius: 30px;
-            box-shadow: 0px 2px 15px 3px;
-            background-color: pink;
-            color: palevioletred;
-            border-bottom: #EED0D5;
-            font-family: "Varela Round", sans-serif;
-             
-        }
+.button-redirection{
+ background-color: green;
+text-decoration: none;
+ color:  white;
+ font-size: 25px;
+ border-radius: 30px;
+box-shadow: 0px 2px 15px 3px;
+ background-color: pink;
+color: palevioletred;
+border-bottom: #EED0D5;
+font-family: "Varela Round", sans-serif;
+display: flex;
+justify-content: center;
+}
 
-        footer{
-            background-color: palevioletred;
-            color: white;
-            height: 160px;
-            font-size: 20px;
-            padding: 10px;
-            font-family: "Varela Round", sans-serif;
-        }
+footer{
+background-color: palevioletred;
+  color: white;
+height: 200px;
+ font-size: 20px;
+ padding: 10px;
+ font-family: "Varela Round", sans-serif;
+}
 
-        .shadow2 h1{
-            text-align: center;
-        }
+.shadow3 h1{
+text-align: left;
+}
+
+.shadow3{
+box-shadow: 0px 2px 15px 3px;
+ height: 630px;
+ background-color: pink;
+ color: palevioletred;
+width: 1000px;
+ margin: 5px;
+padding: 50px;
+ border-radius: 20px;
+          
+}
+.shadow3 img{
+border-image: 20px;
+padding: 20px;
+float: right;
+height:100%;
+width: 100%;
+         
+      
+}
+      
         
+.shadow4 h1{
+text-align: center;
+font-size: 50px;
+ }
+    
+.shadow4{
+ box-shadow: 0px 2px 15px 3px;
+height: 250px;
+background-color: pink;
+color: palevioletred;
+ width: 500px;
+margin: 5px;
+padding: 50px;
+border-radius: 20px;
+ float: right;
+    
+ }
+.shadow4 img{
+border-image: 20px;
+padding: 20px;
+float: right;
+height:100%;
+width: 100%;
+                   
+}
+.shadow4 h2, p {
+ color: white;
+text-align:center;
+font-size: 30px;
+ }
+.productosventa2{
+ display: flex;
+justify-content: center;
+ }
+          
+ .infocurso{
+  box-shadow: 0px 2px 15px 3px;
+  height: 250px;
+  background-color: pink;
+  color: palevioletred;
+   width: 100%px;
+  margin: 5px;
+  padding: 40px;
+  border-radius: 20px;
+   float: center;
+
+   
+ }
+
+ .infocurso img{
+  border-image: 20px;
+padding: 20px;
+float: right;
+height:100%;
+width: 500px;
+ }
+
+ .infocurso h2, p,{
+  color: white;
+   text-align: left;
+    font-size: 30px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
   
 
 
